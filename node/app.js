@@ -264,7 +264,7 @@ function receivedMessage(event) {
 	  case 'adatvédelem':
       case 'policy':
       case 'privacy policy':
-        sendPPMessage(senderID);
+         sendTextMessage(senderID, 'Itt találod az adatvédelmi nyilatkozatot: https://datadatbot.tk/privacypolicy/adatnyilatkozat.html');
         break;
 
       case 'TOKEN':
