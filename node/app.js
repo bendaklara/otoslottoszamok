@@ -599,7 +599,7 @@ function receivedPostback(event) {
 
   // When a postback is called, we'll send a message back to the sender to
   // let them know it was successful
-  sendTextMessage(senderID, "Postback called");
+  sendTextMessage(senderID, "Mondj egy lottószámot, és megmondom, hányszor szerepelt az elmúlt 90 alkalommal az Ötöslottón!");
 }
 
 /*
